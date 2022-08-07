@@ -1,3 +1,16 @@
 .base-color, .footer-color {
     background-color: #2F303A;
 }
+ul {
+    list-style: none;
+}
+.anchor {
+    text-decoration: none;
+}
+
+.list-button {
+
+}
+.list-anchor {
+    
+}
