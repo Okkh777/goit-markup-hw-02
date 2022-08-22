@@ -8,6 +8,23 @@
     --button-color: #F5F4FA;
     --logo-dark-color: #000000;
 }
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /* --- Body --- */
 body {
     font-size: 14px;
@@ -18,11 +35,15 @@ body {
 }
 ul {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 img {
     display: block;
 }
 /* --- Header --- */
+
 .site-nav {
     font-weight: 500;
     line-height: 1.14;
@@ -57,7 +78,6 @@ a {
 }
 /* --- Button --- */
 .button {
-    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
